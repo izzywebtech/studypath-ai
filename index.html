@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyPath AI — Academic Discovery Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>StudyPath AI</h1>
+      <p class="subtitle">Powered by Gemma — discover how to learn any topic or course</p>
+    </header>
+
+    <main>
+      <form id="discoveryForm">
+        <label for="topicInput">What would you like to learn? (topic or course code)</label>
+        <input 
+          type="text" 
+          id="topicInput" 
+          placeholder="e.g. Web Development, or LIS 201..." 
+          required
+        >
+
+        <label for="levelSelect">Your academic level</label>
+        <select id="levelSelect">
+          <option value="100 Level">100 Level</option>
+          <option value="200 Level" selected>200 Level</option>
+          <option value="300 Level">300 Level</option>
+          <option value="400 Level">400 Level</option>
+          <option value="500 Level">500 Level</option>
+        </select>
+
+        <label for="skillSelect">Your experience with this topic</label>
+<select id="skillSelect">
+  <option value="Beginner" selected>Beginner</option>
+  <option value="Intermediate">Intermediate</option>
+  <option value="Advanced">Advanced</option>
+</select>
+
+        <button type="submit" id="submitBtn">Discover</button>
+      </form>
+
+      <div id="responseArea" class="response-area hidden">
+        <div id="loadingState" class="loading hidden">
+          <p>Gemma is thinking...</p>
+        </div>
+        <div id="resultContent"></div>
+        <div id="followupButtons" class="followup-buttons hidden">
+          <button class="followup-btn" data-mode="studyplan">📅 Create a 7-Day Study Plan</button>
+          <button class="followup-btn" data-mode="resources">🔍 Find More Resources</button>
+          <button class="followup-btn" data-mode="quiz">❓ Generate Practice Questions</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Build with Gemma Hackathon 2026</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
