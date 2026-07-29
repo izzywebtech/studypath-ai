@@ -118,7 +118,7 @@ StudyPath AI does not rely on a university syllabus database. Responses are inte
 
 See the project demo video for a complete walkthrough of the application's functionality.
 
-[Insert Demo Video Link]
+https://www.youtube.com/watch?v=sehnmcVWdKI
 
 ---
 
