@@ -1,6 +1,6 @@
 # StudyPath AI 🎓
 
-An AI-powered academic assistant that helps university students discover how to learn a new topic or navigate a specific course — built for **Build with Gemma** (GDG on Campus FUTMinna).
+An AI-powered academic assistant that helps university students discover how to learn a new topic or navigate a specific course — built for the **Build with Gemma: AI for Africa Hackathon** (GDG on Campus FUTMinna).
 
 ---
 
@@ -191,7 +191,7 @@ Library and Information Science Student
 
 Federal University of Technology Minna (FUT Minna)
 
-Developed for **Build with Gemma** (GDG on Campus FUTMinna).
+Developed for the **Build with Gemma: AI for Africa Hackathon** (GDG on Campus FUTMinna).
 
 ---
 
